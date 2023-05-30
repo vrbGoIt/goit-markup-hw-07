@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./css/styles.css" />
+        <title>WebStudio</title>
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="flex-row container">
+                <!-- Logo and Menu Conteiner -->
+                <nav class="flex-row navigation">
+                    <!-- Logo -->
+                    <a class="link logo" href="./index.html"
+                        >Web<span class="logo-black">Studio</span></a
+                    >
+                    <!-- Menu Bar-->
+                    <ul class="list flex-row menu">
+                        <li class="menu-item">
+                            <a
+                                class="link menu-link current-page"
+                                href="./index.html"
+                                >Studio</a
+                            >
+                        </li>
+                        <li class="menu-item">
+                            <a class="link menu-link" href="./portfolio.html"
+                                >Portfolio</a
+                            >
+                        </li>
+                        <li class="menu-item">
+                            <a class="link menu-link" href="./contacts.html"
+                                >Contacts</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+                <!-- Contacts -->
+                <address class="list-contacts">
+                    <ul class="list flex-row menu">
+                        <li class="menu-item">
+                            <a
+                                class="link contacts"
+                                href="mailto:info@devstudio.com"
+                                >info@devstudio.com</a
+                            >
+                        </li>
+                        <li class="menu-item">
+                            <a class="link contacts" href="tel:+110001111111"
+                                >+11 (000) 111-11-11</a
+                            >
+                        </li>
+                    </ul>
+                </address>
+            </div>
+        </header>
+        <!-- Main Content -->
+        <main>
+            <section class="header-section">
+                <div class="container">
+                    <h1 class="main-header">
+                        Effective Solutions for Your Business
+                    </h1>
+                    <!-- <div class="button-conteiner"> -->
+                    <button class="button-header" type="button" data-modal-open>
+                        Order Service
+                    </button>
+                    <!-- </div> -->
+                </div>
+            </section>
+            <section class="quality-section">
+                <div class="container">
+                    <h2 hidden class="quality-header">Our qualities</h2>
+                    <ul class="list flex-row quality-list">
+                        <li class="quality-item">
+                            <div class="quality_logo flex-row">
+                                <svg
+                                    class="quality-logo-t_icon"
+                                    aria-label="іконка логотипу"
+                                    width="64"
+                                    height="64"
+                                >
+                                    <use
+                                        href="./images/icons.svg#icon-antenna"
+                                    ></use>
+                                </svg>
+                            </div>
+                            <h3 class="quality-name">Strategy</h3>
+                            <p class="quality-text">
+                                Our goal is to identify the business problem to
+                                walk away with the perfect and creative
+                                solution.
+                            </p>
+                        </li>
+                        <li class="quality-item">
+                            <div class="quality_logo flex-row">
+                                <svg
+                                    class="quality-logo-t_icon"
+                                    aria-label="іконка логотипу"
+                                    width="64"
+                                    height="64"
+                                >
+                                    <use
+                                        href="./images/icons.svg#icon-clock"
+                                    ></use>
+                                </svg>
+                            </div>
+                            <h3 class="quality-name">Punctuality</h3>
+                            <p class="quality-text">
+                                Bring the key message to the brand's audience
+                                for the best price within the shortest possible
+                                time.
+                            </p>
+                        </li>
+                        <li class="quality-item">
+                            <div class="quality_logo flex-row">
+                                <svg
+                                    class="quality-logo-t_icon"
+                                    aria-label="іконка логотипу"
+                                    width="64"
+                                    height="64"
+                                >
+                                    <use
+                                        href="./images/icons.svg#icon-diagram"
+                                    ></use>
+                                </svg>
+                            </div>
+                            <h3 class="quality-name">Diligence</h3>
+                            <p class="quality-text">
+                                Research and confirm brands that present the
+                                strongest digital growth opportunities and
+                                minimize risk.
+                            </p>
+                        </li>
+                        <li class="quality-item">
+                            <div class="quality_logo flex-row">
+                                <svg
+                                    class="quality-logo-t_icon"
+                                    aria-label="іконка логотипу"
+                                    width="64"
+                                    height="64"
+                                >
+                                    <use
+                                        href="./images/icons.svg#icon-astronaut"
+                                    ></use>
+                                </svg>
+                            </div>
+                            <h3 class="quality-name">Technologies</h3>
+                            <p class="quality-text">
+                                Design practice focused on digital experiences.
+                                We bring forth a deep passion for
+                                problem-solving.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="works-section">
+                <div class="container">
+                    <h2 class="works-header">What are we doing</h2>
+                    <ul class="list flex-row works-list">
+                        <li class="works-item">
+                            <img
+                                width="360"
+                                src="./images/work1.jpg"
+                                alt="Our work1"
+                            />
+                        </li>
+                        <li class="works-item">
+                            <img
+                                width="360"
+                                src="./images/work2.jpg"
+                                alt="Our work2"
+                            />
+                        </li>
+                        <li class="works-item">
+                            <img
+                                width="360"
+                                src="./images/work3.jpg"
+                                alt="Our work3"
+                            />
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="our-team">
+                <div class="container">
+                    <h2 class="our-team-header">Our Team</h2>
+                    <ul class="list flex-row our-team-list">
+                        <li class="our-team-item">
+                            <img
+                                width="264"
+                                src="./images/photo1.jpg"
+                                alt="photo1"
+                            />
+                            <div class="item-info">
+                                <h3 class="our-team-item-header">
+                                    Mark Guerrero
+                                </h3>
+                                <p class="our-team-item-text">
+                                    Product Designer
+                                </p>
+
+                                <ul
+                                    class="list flex-row list-media-team team-media"
+                                >
+                                    <li class="media-item flex-row">
+                                        <a href="" class="link link-media-item">
+                                            <svg
+                                                class="team-list_icon"
+                                                aria-label="іконка мережі"
+                                                width="16"
+                                                height="16"
+                                            >
+                                                <use
+                                                    href="./images/icons.svg#icon-instagram"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="media-item flex-row">
+                                        <a href="" class="link link-media-item">
+                                            <svg
+                                                class="team-list_icon"
+                                                aria-label="іконка мережі"
+                                                width="16"
+                                                height="16"
+                                            >
+                                                <use
+                                                    href="./images/icons.svg#icon-twitter"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="media-item flex-row">
+                                        <a href="" class="link link-media-item">
+                                            <svg
+                                                class="team-list_icon"
+                                                aria-label="іконка мережі"
+                                                width="16"
+                                                height="16"
+                                            >
+                                                <use
+                                                    href="./images/icons.svg#icon-facebook"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="media-item flex-row">
+                                        <a href="" class="link link-media-item">
+                                            <svg
+                                                class="team-list_icon"
+                                                aria-label="іконка мережі"
+                                                width="16"
+                                                height="16"
+                                            >
+                                                <use
+                                                    href="./images/icons.svg#icon-linkedin"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="our-team-item">
+                            <img
+                                width="264"
+                                src="./images/photo2.jpg"
+                                alt="photo2"
+                            />
+                            <div class="item-info">
+                                <h3 class="our-team-item-header">Tom Ford</h3>
+                                <p class="our-team-item-text">
+                                    Frontend Developer
+                                </p>
+
+                                <ul
+                                    class="list flex-row list-media-team team-media"
+                                >
+                                    <li class="media-item flex-row">
+                                        <a href="" class="link link-media-item">
+                                            <svg
+                                                class="team-list_icon"
+                                                aria-label="іконка мережі"
+                                                width="16"
+                                                height="16"
+                                            >
+                                                <use
+                                                    href="./images/icons.svg#icon-instagram"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="media-item flex-row">
+                                        <a href="" class="link link-media-item">
+                                            <svg
+                                                class="team-list_icon"
+                                                aria-label="іконка мережі"
+                                                width="16"
+                                                height="16"
+                                            >
+                                                <use
+                                                    href="./images/icons.svg#icon-twitter"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="media-item flex-row">
+                                        <a href="" class="link link-media-item">
+                                            <svg
+                                                class="team-list_icon"
+                                                aria-label="іконка мережі"
+                                                width="16"
+                                                height="16"
+                                            >
+                                                <use
+                                                    href="./images/icons.svg#icon-facebook"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="media-item flex-row">
+                                        <a href="" class="link link-media-item">
+                                            <svg
+                                                class="team-list_icon"
+                                                aria-label="іконка мережі"
+                                                width="16"
+                                                height="16"
+                                            >
+                                                <use
+                                                    href="./images/icons.svg#icon-linkedin"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="our-team-item">
+                            <img
+                                width="264"
+                                src="./images/photo3.jpg"
+                                alt="photo3"
+                            />
+                            <div class="item-info">
+                                <h3 class="our-team-item-header">
+                                    Camila Garcia
+                                </h3>
+                                <p class="our-team-item-text">Marketing</p>
+
+                                <ul
+                                    class="list flex-row list-media-team team-media"
+                                >
+                                    <li class="media-item flex-row">
+                                        <a href="" class="link link-media-item">
+                                            <svg
+                                                class="team-list_icon"
+                                                aria-label="іконка мережі"
+                                                width="16"
+                                                height="16"
+                                            >
+                                                <use
+                                                    href="./images/icons.svg#icon-instagram"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="media-item flex-row">
+                                        <a href="" class="link link-media-item">
+                                            <svg
+                                                class="team-list_icon"
+                                                aria-label="іконка мережі"
+                                                width="16"
+                                                height="16"
+                                            >
+                                                <use
+                                                    href="./images/icons.svg#icon-twitter"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="media-item flex-row">
+                                        <a href="" class="link link-media-item">
+                                            <svg
+                                                class="team-list_icon"
+                                                aria-label="іконка мережі"
+                                                width="16"
+                                                height="16"
+                                            >
+                                                <use
+                                                    href="./images/icons.svg#icon-facebook"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="media-item flex-row">
+                                        <a href="" class="link link-media-item">
+                                            <svg
+                                                class="team-list_icon"
+                                                aria-label="іконка мережі"
+                                                width="16"
+                                                height="16"
+                                            >
+                                                <use
+                                                    href="./images/icons.svg#icon-linkedin"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="our-team-item">
+                            <img
+                                width="264"
+                                src="./images/photo4.jpg"
+                                alt="photo4"
+                            />
+                            <div class="item-info">
+                                <h3 class="our-team-item-header">
+                                    Daniel Wilson
+                                </h3>
+                                <p class="our-team-item-text">UI Designer</p>
+
+                                <ul
+                                    class="list flex-row list-media-team team-media"
+                                >
+                                    <li class="media-item flex-row">
+                                        <a href="" class="link link-media-item">
+                                            <svg
+                                                class="team-list_icon"
+                                                aria-label="іконка мережі"
+                                                width="16"
+                                                height="16"
+                                            >
+                                                <use
+                                                    href="./images/icons.svg#icon-instagram"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="media-item flex-row">
+                                        <a href="" class="link link-media-item">
+                                            <svg
+                                                class="team-list_icon"
+                                                aria-label="іконка мережі"
+                                                width="16"
+                                                height="16"
+                                            >
+                                                <use
+                                                    href="./images/icons.svg#icon-twitter"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="media-item flex-row">
+                                        <a href="" class="link link-media-item">
+                                            <svg
+                                                class="team-list_icon"
+                                                aria-label="іконка мережі"
+                                                width="16"
+                                                height="16"
+                                            >
+                                                <use
+                                                    href="./images/icons.svg#icon-facebook"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="media-item flex-row">
+                                        <a href="" class="link link-media-item">
+                                            <svg
+                                                class="team-list_icon"
+                                                aria-label="іконка мережі"
+                                                width="16"
+                                                height="16"
+                                            >
+                                                <use
+                                                    href="./images/icons.svg#icon-linkedin"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="customer_section">
+                <div class="container">
+                    <h2 class="customer-header">Customers</h2>
+                    <ul class="list flex-row customer-list">
+                        <li class="customer-item">
+                            <a href="" class="link-customer">
+                                <svg
+                                    class="customer-list_icon"
+                                    aria-label="іконка компанії"
+                                    width="104"
+                                    height="56"
+                                >
+                                    <use
+                                        href="./images/icons.svg#icon-Logo1"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="customer-item">
+                            <a href="" class="link-customer">
+                                <svg
+                                    class="customer-list_icon"
+                                    aria-label="іконка компанії"
+                                    width="104"
+                                    height="56"
+                                >
+                                    <use
+                                        href="./images/icons.svg#icon-Logo2"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="customer-item">
+                            <a href="" class="link-customer">
+                                <svg
+                                    class="customer-list_icon"
+                                    aria-label="іконка компанії"
+                                    width="104"
+                                    height="56"
+                                >
+                                    <use
+                                        href="./images/icons.svg#icon-Logo3"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="customer-item">
+                            <a href="" class="link-customer">
+                                <svg
+                                    class="customer-list_icon"
+                                    aria-label="іконка компанії"
+                                    width="104"
+                                    height="56"
+                                >
+                                    <use
+                                        href="./images/icons.svg#icon-Logo4"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="customer-item">
+                            <a href="" class="link-customer">
+                                <svg
+                                    class="customer-list_icon"
+                                    aria-label="іконка компанії"
+                                    width="104"
+                                    height="56"
+                                >
+                                    <use
+                                        href="./images/icons.svg#icon-Logo5"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="customer-item">
+                            <a href="" class="link-customer">
+                                <svg
+                                    class="customer-list_icon"
+                                    aria-label="іконка компанії"
+                                    width="104"
+                                    height="56"
+                                >
+                                    <use
+                                        href="./images/icons.svg#icon-Logo6"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container footer-content">
+                <div class="logo-block">
+                    <a class="link logo logo-footer" href="./index.html"
+                        >Web<span class="logo-ligth">Studio</span></a
+                    >
+                    <p class="footer-text">
+                        Increase the flow of customers and sales for your
+                        business with digital marketing & growth solutions.
+                    </p>
+                </div>
+                <div class="media-block">
+                    <p class="media-header">Social media</p>
+                    <ul class="list flex-row list-media">
+                        <li class="media-item flex-row">
+                            <a href="" class="link link-propety">
+                                <svg
+                                    class="footer-list_icon"
+                                    aria-label="іконка мережі"
+                                    width="24"
+                                    height="24"
+                                >
+                                    <use
+                                        href="./images/icons.svg#icon-instagram"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="media-item flex-row">
+                            <a href="" class="link link-propety">
+                                <svg
+                                    class="footer-list_icon"
+                                    aria-label="іконка мережі"
+                                    width="24"
+                                    height="24"
+                                >
+                                    <use
+                                        href="./images/icons.svg#icon-twitter"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="media-item flex-row">
+                            <a href="" class="link link-propety">
+                                <svg
+                                    class="footer-list_icon"
+                                    aria-label="іконка мережі"
+                                    width="24"
+                                    height="24"
+                                >
+                                    <use
+                                        href="./images/icons.svg#icon-facebook"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="media-item flex-row">
+                            <a href="" class="link link-propety">
+                                <svg
+                                    class="footer-list_icon"
+                                    aria-label="іконка мережі"
+                                    width="24"
+                                    height="24"
+                                >
+                                    <use
+                                        href="./images/icons.svg#icon-linkedin"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-form">
+                    <p class="subscribe-text">Subscribe</p>
+                    <form class="subscribe-form">
+                        <label class="subscribe-label" for="user_email">
+                            <input
+                                class="subscribe-field"
+                                type="email"
+                                name="email"
+                                id="user_email"
+                                placeholder="E-mail"
+                            />
+                        </label>
+                        <button class="subscribe-button" type="submit">
+                            Subscribe
+                            <svg
+                                class="icon-input-subscribe"
+                                aria-label="іконка підписки"
+                                width="24"
+                                height="24"
+                            >
+                                <use href="./images/icons.svg#icon-send"></use>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </footer>
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button type="button" class="modal-close" data-modal-close>
+                    <svg
+                        class="modal-close-button"
+                        aria-label="іконка закриття"
+                        width="8"
+                        height="8"
+                    >
+                        <use href="./images/icons.svg#icon-close"></use>
+                    </svg>
+                </button>
+                <p class="header-modal">
+                    Leave your contacts and we will call you back
+                </p>
+                <form>
+                    <div class="label-block">
+                        <label for="user-name" class="form-label"> Name </label>
+                        <div class="form-label-wrapper">
+                            <input
+                                class="input-field"
+                                type="text"
+                                name="user-name"
+                                id="user-name"
+                            />
+                            <svg
+                                class="icon-input-field"
+                                aria-label="іконка закриття"
+                                width="18"
+                                height="24"
+                            >
+                                <use
+                                    href="./images/icons.svg#icon-user_name"
+                                ></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="label-block">
+                        <label for="phone" class="form-label"> Phone </label>
+                        <div class="form-label-wrapper">
+                            <input
+                                class="input-field"
+                                type="tel"
+                                name="phone"
+                                id="phone"
+                            />
+                            <svg
+                                class="icon-input-field"
+                                aria-label="іконка закриття"
+                                width="18"
+                                height="24"
+                            >
+                                <use href="./images/icons.svg#icon-phone"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="label-block">
+                        <label for="email" class="form-label"> Email </label>
+                        <div class="form-label-wrapper">
+                            <input
+                                class="input-field"
+                                type="email"
+                                name="email"
+                                id="email"
+                            />
+                            <svg
+                                class="icon-input-field"
+                                aria-label="іконка закриття"
+                                width="18"
+                                height="24"
+                            >
+                                <use href="./images/icons.svg#icon-email"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="area-block">
+                        <label for="user-comment" class="form-label">
+                            Comment
+                        </label>
+                        <textarea
+                            class="area-field"
+                            name="user-comment"
+                            id="user-comment"
+                            rows="6"
+                            placeholder="Text input"
+                        ></textarea>
+                    </div>
+                    <div class="check-block">
+                        <input
+                            class="visually-hidden"
+                            type="checkbox"
+                            name="user-privacy"
+                            id="user-privacy"
+                            value="true"
+                        />
+                        <label for="user-privacy" class="text-policy">
+                            <span class="virtual-checkbox">
+                                <svg
+                                    class="icon-virtual-checkbox"
+                                    aria-label="іконка checkbox"
+                                    width="10"
+                                    height="8"
+                                >
+                                    <use
+                                        href="./images/icons.svg#icon-checkmark"
+                                    ></use>
+                                </svg>
+                            </span>
+                            I accept the terms and conditions of the
+                            <a href="" class="span-policy">Privacy Policy</a> 
+                        </label>
+                    </div>
+                    <button class="send-button" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+        <script src="./js/modal.js"></script>
+    </body>
+</html>
