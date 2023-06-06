@@ -64,7 +64,9 @@ ul {
 
 @media screen and (min-width: 428px) {
         .container {
-        width: 400px;
+        width: 396px;
+        margin: 0 auto;
+        padding: 0;
     }
 }
 
@@ -210,6 +212,48 @@ ul {
 .button-header:focus {
     background-color: var(--link-hover-color);
 }
+
+/***********************************************/
+
+
+/***********************************************/
+/*  SECTION 1  */
+/***********************************************/
+
+
+.quality_logo {
+    display: none;
+}
+
+.quality-section {
+    padding: 96px 0;
+}
+
+.quality-list {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
+.quality-name {
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navy-blue);
+}
+
+.quality-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--contact-color);
+}
+
 
 /***********************************************/
 
