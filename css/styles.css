@@ -45,11 +45,15 @@ button {
     cursor: pointer;
 }
 
-.link {
+a {
     text-decoration: none;
 }
 
+ul {
+    list-style: none;
+}
 
+/***********************************************/
 
 .container {
     width: 100%;
@@ -58,10 +62,22 @@ button {
     justify-content: space-between;
 }
 
+@media screen and (min-width: 428px) {
+        .container {
+        width: 400px;
+    }
+}
+
+.flex-row {
+    display: flex;
+    justify-content: center;
+}
+
 /*  HEADER  */
 /***********************************************/
+
 .header {
-    margin: 24px 0;
+    margin: 24px auto;
 }
 
 .button-mobile-menu {
@@ -85,7 +101,6 @@ button {
 }
 
 /***********************************************/
-
 /*  SECTION 1  */
 /***********************************************/
 
@@ -100,6 +115,17 @@ button {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+@media  screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+        screen and (min-resolution: 2dppx) and (max-width: 767px) {
+    .header-section {
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+        ),
+        url('../images/Dark-bg@2.jpg');
+    }
 }
 
 .main-header {
