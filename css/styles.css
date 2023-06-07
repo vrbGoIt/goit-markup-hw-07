@@ -537,6 +537,12 @@ ul {
     padding: 96px 0;
 }
 
+@media screen and (min-width: 1158px) {
+    .customer_section {
+        padding: 120px 0;
+    }
+}
+
 .customer-container-flex {
     display: flex;
     flex-direction: column;
@@ -571,6 +577,12 @@ ul {
 .customer-item {
     width: calc((100% - 1 * 24px) / 2); /* mobile */
     height: 88px;
+}
+
+@media screen and (min-width: 1158px) {
+    .customer-item {
+        width: calc((100% - 5 * 24px) / 6); 
+    }
 }
 
 .link-customer {
