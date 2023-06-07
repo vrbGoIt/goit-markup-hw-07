@@ -567,6 +567,12 @@ ul {
     column-gap: 16px;
 }
 
+@media screen and (min-width: 1158px) {
+    .customer-list {
+        column-gap: 24px; 
+    }
+}
+
 .customer-list-flex {
     display: flex;
     flex-direction: row;
@@ -621,7 +627,6 @@ ul {
 
 
 .footer {
-
     margin: 0 auto;
     padding: 100px 0;
     background-color: var(--navy-blue);
@@ -631,10 +636,24 @@ ul {
 .footer-content {
     display: flex;
     flex-direction: column;    /* mobile */
-} 
+}
+
+@media screen and (min-width: 1158px) {
+    .footer-content {
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: left;
+    }
+}
 
 .logo-block {
     margin: 0 auto; /* mobile */
+}
+
+@media screen and (min-width: 1158px) {
+    .logo-block {
+        margin: 0 120px 0 0;
+    }
 }
 
 .logo-footer {
@@ -642,6 +661,12 @@ ul {
     display: flex;
     justify-content: center;
     margin-bottom: 16px;
+}
+
+@media screen and (min-width: 1158px) {
+    .logo-footer {
+        justify-content: left;
+    }
 }
 
 .logo-ligth {
@@ -670,6 +695,13 @@ ul {
     color: #ffffff;
 }
 
+@media screen and (min-width: 1158px) {
+    .media-header {
+        margin-top: 0;
+        justify-content: left;
+    }
+}
+
 .subscribe-text {
     display: flex;
     justify-content: center;
@@ -680,6 +712,13 @@ ul {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #ffffff;
+}
+
+@media screen and (min-width: 1158px) {
+    .subscribe-text {
+        margin-top: 0;
+        justify-content: left;
+    }
 }
 
 .list-media {
@@ -713,13 +752,26 @@ ul {
 }
 
 .footer-form {
-    /* margin-left: 80px; */    /* mobile */
+    /* margin-left: 80px; */    
     margin-bottom: 16px;        /* mobile */
+}
+
+@media screen and (min-width: 1158px) {
+    .footer-form {
+        margin-left: 80px;
+        margin-bottom: 0;
+    }
 }
 
 .subscribe-form {
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (min-width: 1158px) {
+    .subscribe-form {
+        flex-direction: row;
+    }
 }
 
 .subscribe-label {
@@ -730,6 +782,13 @@ ul {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #ffffff;
+}
+
+@media screen and (min-width: 1158px) {
+    .subscribe-label {
+        margin-bottom: 0;
+        margin-right: 24px;
+    }
 }
 
 .subscribe-field {
@@ -748,6 +807,12 @@ ul {
     color: #ffffff;
     background-color: transparent;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+
+@media screen and (min-width: 1158px) {
+    .subscribe-field {
+        width: 264px;
+    }
 }
 
 .subscribe-field::placeholder {
