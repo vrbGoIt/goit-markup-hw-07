@@ -275,6 +275,12 @@ ul {
 /*  SECTION 4  Out team */
 /***********************************************/
 
+.our-team-container-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .our-team {
     padding-top: 96px;
     margin: 0 auto;
