@@ -70,6 +70,12 @@ ul {
     }
 }
 
+@media screen and (min-width: 768px) {
+    .container {
+    width: 768px;
+}
+}
+
 @media screen and (min-width: 1158px) {
         .container {
         width: 1158px;
@@ -96,6 +102,12 @@ ul {
     margin: 24px auto;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+    .header {
+        margin: 16px auto;
+    }
+}
+
 .navigation {
     display: flex;
     gap: 120px;
@@ -104,6 +116,12 @@ ul {
 .button-mobile-menu {
     background-color: transparent;
     border-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+    .button-mobile-menu {
+    display: none;
+    }
 }
 
 @media screen and (min-width: 1158px) {
@@ -123,6 +141,12 @@ ul {
     color: var(--logo-accent-color);
 }
 
+@media screen and (min-width: 768px) and (max-width: 1157px){
+    .logo {
+        padding-top: 8px;
+    }
+}
+
 .logo-black {
     color: var(--menu-color);
 }
@@ -132,14 +156,42 @@ ul {
     gap: 40px;
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 768px) and (max-width: 1157px){
     .menu {
-    display: flex;
+        padding-top: 8px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .menu {
+        display: flex;
+        flex-direction: row;
     }
 }
 
 .menu-item {
     padding: 0;
+}
+
+.menu-address {
+    display: none;
+    
+}
+
+@media screen and (min-width: 768px) {
+    .menu-address {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .menu-address {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
 }
 
 .menu-link:hover,
@@ -167,7 +219,7 @@ ul {
     width: 100%;
     height: 4px;
     left: 0;
-    bottom: -26px;
+    bottom: -27px;
     display: block;
     background-color: var(--link-hover-color);
     border-radius: 2px;
@@ -181,6 +233,13 @@ ul {
     font-style: normal;
     color: var(--contact-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1157px){
+    .contacts {
+        font-size: 12px;
+        line-height: 1.16;
+    }
 }
 
 .contacts:hover,
