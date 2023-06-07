@@ -173,8 +173,6 @@ ul {
     border-radius: 2px;
 }
 
-
-
 .contacts {
     font-weight: 400;
     font-size: 16px;
@@ -349,6 +347,37 @@ ul {
 .works-section {
     display: none;
     padding-bottom: 120px;
+}
+
+@media screen and (min-width: 1158px) {
+    .works-section {
+    display: block;
+    padding-bottom: 120px;
+    }
+}
+
+.block-section {
+    display: block;
+}
+
+.works-header {
+    margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navy-blue);
+}
+
+.works-list {
+    gap: 24px;
+}
+
+.works-item {
+    flex-basis: calc((100% - 48px) / 3);
 }
 
 /***********************************************/
