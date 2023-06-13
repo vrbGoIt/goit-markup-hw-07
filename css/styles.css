@@ -1129,6 +1129,18 @@ ul {
     justify-content: space-between;
 }
 
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.mobile-view-menu.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
 /*
 .container {
     width: 1158px;
