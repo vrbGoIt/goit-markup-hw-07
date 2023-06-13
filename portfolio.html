@@ -19,65 +19,65 @@
     </head>
 
     <body>
-        <header class="header">
-            <div class="flex-row container">
-                <!-- Logo and Menu Conteiner -->
-                <nav class="flex-row navigation">
-                    <!-- Logo -->
-                    <a class="link logo" href="./index.html"
+        <header class="header shadow">
+            <div class="container">
+                <nav class="navigation">
+                    <a class="logo" href="./index.html"
                         >Web<span class="logo-black">Studio</span></a
                     >
-                    <!-- Menu Bar-->
-                    <ul class="list flex-row menu">
+                    <ul class="menu">
                         <li class="menu-item">
                             <a
-                                class="link menu-link menu-item"
+                                class="menu-link"
                                 href="./index.html"
                                 >Studio</a
                             >
                         </li>
                         <li class="menu-item">
-                            <a
-                                class="link menu-link menu-item current-page"
-                                href="./portfolio.html"
+                            <a class="menu-link current-page" href="./portfolio.html"
                                 >Portfolio</a
                             >
                         </li>
                         <li class="menu-item">
-                            <a
-                                class="link menu-link menu-item"
-                                href="./contacts.html"
+                            <a class="menu-link" href="./contacts.html"
                                 >Contacts</a
                             >
                         </li>
                     </ul>
                 </nav>
-                <!-- Contacts -->
                 <address class="list-contacts">
-                    <ul class="list flex-row menu">
+                    <ul class="menu-address">
                         <li class="menu-item">
                             <a
-                                class="link contacts menu-item"
+                                class="contacts"
                                 href="mailto:info@devstudio.com"
                                 >info@devstudio.com</a
                             >
                         </li>
                         <li class="menu-item">
-                            <a
-                                class="link contacts menu-item"
-                                href="tel:+110001111111"
+                            <a class="contacts" href="tel:+110001111111"
                                 >+11 (000) 111-11-11</a
                             >
                         </li>
                     </ul>
                 </address>
+                <button type="button" class="button-mobile-menu js-open-menu">
+                    <svg
+                        class="menu_mobile"
+                        aria-label="іконка мережі"
+                        width="16"
+                        height="16"
+                    >
+                        <use href="./images/icons.svg#icon-menu"></use>
+                    </svg>
+                </button>
             </div>
         </header>
         <main>
             <section class="portfolio-section">
-                <div class="container">
+                <div class="container display-block">
                     <h1 hidden>Portfolio</h1>
-                    <ul class="list flex-row justify-center list-button">
+                    <ul class="list list-button">
                         <li>
                             <button class="filter_button" type="button">
                                 All
