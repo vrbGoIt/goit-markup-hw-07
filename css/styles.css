@@ -343,11 +343,20 @@ ul {
     color: #FFFFFF;
 }
 
+@media screen and (min-width: 768px) {
+    .main-header {
+        max-width: 496px;
+        font-size: 56px;
+        line-height: 60px;
+    }
+}
+
 @media screen and (min-width: 1158px) {
     .main-header {
         max-width: 496px;
         font-size: 56px;
         line-height: 60px;
+    }
 }
 
 .button-header {
@@ -444,6 +453,12 @@ ul {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--navy-blue);
+}
+
+@media screen and (min-width: 768px) {
+    .quality-name {
+        text-align: left;
+    }
 }
 
 @media screen and (min-width: 1158px) {
