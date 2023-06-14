@@ -312,6 +312,7 @@ ul {
             rgba(46, 47, 66, 0.7)
         ),
         url('../images/Dark-bg-desk.jpg');
+        padding: 188px 0;
     }
 }
 
@@ -324,6 +325,7 @@ ul {
             rgba(46, 47, 66, 0.7)
         ),
         url('../images/Dark-bg-desk@2.jpg');
+        padding: 188px 0;
     }
 }
 
@@ -339,6 +341,13 @@ ul {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #FFFFFF;
+}
+
+@media screen and (min-width: 1158px) {
+    .main-header {
+        max-width: 496px;
+        font-size: 56px;
+        line-height: 60px;
 }
 
 .button-header {
